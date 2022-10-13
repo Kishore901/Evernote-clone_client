@@ -11,8 +11,9 @@ const NoteList = () => {
           <div>2 Notes</div>
         </div>
       </div>
-      <div className="note-list-items flex flex-col border-b-2 border-gray-400 divide-y-2 divide-gray-400">
+      <div className="note-list-items flex flex-col border-b-2 border-gray-400 divide-y-2 divide-gray-400 overflow-y-auto">
         {/* List of notes card */}
+
         <div className="note-list-card cursor-pointer p-6 hover:bg-gray-300 active:bg-gray-300">
           <div className="mb-4">
             <div className="text-xl font-semibold overflow-hidden truncate mb-4">
@@ -24,6 +25,7 @@ const NoteList = () => {
             <div>Date</div>
           </div>
         </div>
+
         <div className="note-list-card cursor-pointer p-6 hover:bg-gray-300 active:bg-gray-300">
           <div className="mb-4">
             <div className="text-xl font-semibold overflow-hidden truncate mb-4">
